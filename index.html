@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+	<meta charset ="utf-8">
+	<title>Form</title>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+	<link name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="final.css"> 
+</head>
+<body>
+	<h1 style="color:white" ><center>HERITAGE INSTITUTE OF TECHNOLOGY</center></h1>
+	<img class="logo" src="heritage.jpg" width="200" height="150" alt="HERITAGE LOGO">
+	<div class="main-block" >
+		<form autocomplete="off">
+			<div class="title">
+				<i class="fas fa-graduation-cap" ></i>
+				  <h2><u>ADMISSION FORM</u></h2>
+				</div>
+
+				<div class="info">
+					<input type="text" name="name" placeholder="Student's name*" required pattern="[A-z]{1,100}">
+					<input type="text" name="name" placeholder="Father's name*" required pattern="[A-z ]{1,100}">
+					<input type="text" name="name" placeholder="Mother's name*" required pattern="[A-z ]{1,100}">
+					<input type="text" name="country" placeholder="Country*" required pattern="[A-z ]{1,100}">
+					<input type="text" name="name" placeholder="Email id*" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
+					<input type="tel" name="phone" placeholder="Mobile No.*" required pattern="[0-9]{10}">
+					<label for="birthday" style="color:red">DOB:*</label>
+                    <input type="date" id="birthday" name="birthday">
+
+					<select name="drop">
+						<option value="programme" selected>Select a programme*</option>
+						<option value="ug">Undergraduate</option>
+						<option value="pg">Postgraduate</option>
+					</select>
+
+					<select name="down">
+						<option value="gender" selected>Gender*</option>
+						<option value="male">Male</option>
+						<option value="female">Female</option>
+						<option value="other">Other</option>
+					</select>
+
+					<select name="list">
+	  				<option value="category">Category*</option>
+						<option value="general">General</option>
+						<option value="sc">SC</option>
+						<option value="st">ST</option>
+						<option value="obc">OBC-NCL</option>
+					</select>
+				</div>
+				
+				<button type="button">Submit</button>
+			</form>
+		</div>
+</body>
+	
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
